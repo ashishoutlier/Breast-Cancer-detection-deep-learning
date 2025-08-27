@@ -10,7 +10,7 @@ scaler = joblib.load("scaler.pkl")
 feature_names = joblib.load("features.pkl")
 feature_ranges = joblib.load("feature_ranges.pkl")
 
-st.title("Breast Cancer Detection App")
+st.title("Breast Cancer Detection Website")
 st.write("### Choose input method: Sliders OR Paste Array")
 
 # Tabs for two input methods
